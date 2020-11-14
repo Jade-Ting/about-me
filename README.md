@@ -22,4 +22,6 @@
 ```
 
 ### 使用插件
-- [步骤引导](https://github.com/jwarby/jquery-pagewalkthrough)
+- [pagewalkthrough - 页面引导](https://github.com/jwarby/jquery-pagewalkthrough)
+    
+    `index.js` 文件中的`pagewalkthrough`配置中的 `steps` 对应 `index.html` id为 `walkthrough-content` 的步骤说明。
