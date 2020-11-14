@@ -4,8 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ABOUT ME</title>
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet" type="text/css">
+    
+    <link rel="stylesheet" href="./pagewalkthrough/css/jquery.pagewalkthrough.min.css">
     <link rel="stylesheet" href="./index.css">
     <link rel="shortcut icon" href="./img/girl.png" type="image/x-icon">
+
+    <style>
+        /* 更改步骤引导的关闭按钮位置 */
+        #jpwClose {
+            top: auto;
+            bottom: 50px;
+        }
+    </style>
 </head>
 <body>
     <nav class="link-nav">
@@ -57,8 +68,29 @@
         </div>
         <footer class="footer">页脚</footer>
     </div>
+
+    <div id="walkthrough-content" style="display: none;"> 
+        <div id="walkthrough-1"> 
+            <h3> Hi there 👋</h3>
+            <h3>Nice to see you !</h3>
+            
+            <p>页面内容较少~</p>
+            <p>去看看个别隐藏功能吧~</p>
+
+            <p style="font-size: 12px;">感谢<a href="https://github.com/jwarby/jquery-pagewalkthrough" target="_blank" style="color: #00c7ff;">pagewalkthrough.js</a>插件实现引导步骤~</p>
+        </div> 
+      
+        <div id="walkthrough-2"> 
+            可以点击我看效果~
+        </div> 
+      
+        <div id="walkthrough-3"> 
+            my secret base 
+        </div>
+    </div>
 </body>
 
 <script src="./js/jquery-3.5.1.min.js"></script>
+<script src="./pagewalkthrough/jquery.pagewalkthrough.min.js"></script>
 <script src="./js/index.js"></script>
 </html>

@@ -20,3 +20,6 @@
 ├─img
 |  └girl.png
 ```
+
+### 使用插件
+- [步骤引导](https://github.com/jwarby/jquery-pagewalkthrough)
